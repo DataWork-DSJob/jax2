@@ -70,9 +70,9 @@ spring:
     # JDBC连接串
     url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/jax_db?characterEncoding=utf8&useSSL=false&allowMultiQueries=true&serverTimezone=Asia/Shanghai
     # JDBC用户
-    username: ${MYSQL_USER:root}
+    username: ${MYSQL_USER:bigdata}
     # JDBC密码
-    password: ${MYSQL_PASSWORD:User@123}
+    password: ${MYSQL_PASSWORD:hq.2021.DB}
     # JDBC使用Hikari连接池
     type: com.zaxxer.hikari.HikariDataSource
     # hikari连接池配置信息

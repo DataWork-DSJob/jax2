@@ -14,9 +14,9 @@
             <directory>${project.basedir}/release</directory>
             <outputDirectory>jax</outputDirectory>
             <includes>
-                <include>start.sh</include>
-                <include>start-docker.sh</include>
-                <include>stop.sh</include>
+                <include>jax-start.sh</include>
+                <include>jax-start-docker.sh</include>
+                <include>jax-stop.sh</include>
             </includes>
         </fileSet>
         <fileSet>

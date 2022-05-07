@@ -17,7 +17,7 @@ package: mvn-clean
 
 .PHONY: font-end
 font-end:
-	cd jax-ui && rm -rf dist && yarn install && yarn build
+	cd jax-ui && rm -rf dist && yarnpkg install && yarnpkg build
 
 .PHONY: unpack-jax
 unpack-jax: package font-end
