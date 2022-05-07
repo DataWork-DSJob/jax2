@@ -8,12 +8,12 @@ clean:
 
 .PHONY: mvn-clean
 mvn-clean:
-	./mvn -v && ./mvn -P flink12 clean && ./mvn clean
+	mvn -v && mvn -P flink12 clean && mvn clean
 
 .PHONY: package
 package: mvn-clean
-	./mvn package -DskipTests
-	./mvn -P flink12 package -DskipTests
+	mvn package -DskipTests
+	mvn -P flink12 package -DskipTests
 
 .PHONY: font-end
 font-end:
